@@ -1,0 +1,363 @@
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.color1{
+  color: #C6E4D6;
+}
+.bg-margin{
+  margin: 0px 160px;
+}
+/* banner section*/
+
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin: 20px 0px 80px 0px;
+    border: none;
+    border-radius: 24px;
+    padding: 100px 80px;
+  }
+.banner-content{
+  margin: 0px;
+}
+.ban-title {
+  color: #0E0E0E;
+  font-size: 24px;
+  opacity: 0.5;
+  margin: 0px 0px 16px 0px;
+}
+.banner-text{
+  font-size: 45px;
+  margin: 0px;
+  font-weight: bold;
+}
+.banner-img{
+  width: 475px;
+  height: 400px;
+}
+
+.banner-btn{
+ 
+  background-color: #006A50;
+  font-size: 18px;
+  font-weight: 600px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 17px 34px ;
+}
+header button a{
+  text-decoration: none;
+  color:white;
+}
+.banner-btn:hover{
+  background-color: red;
+}
+
+/* The vision of Future Section */
+.vision-of{
+  /* margin: 0px 160px 32px 160px; */
+}
+.vision-of h3{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.vision-of-p{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 100px;
+}
+.vision-of-box{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  margin-top: 32px;
+  height: 300px;
+}
+.vision-box-1{
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-of-box-img{
+  height: 64px;
+  width: 64px;
+}
+.vision-box-title{
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+.vision-box-p{
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 24px;
+}
+.learn-btn, .learn-btn, .learn-btn{
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-weight: 600px;
+  font-size: 16px;
+}
+.lbtn1{
+  background-color: #5490F5;
+}
+.lbtn1:hover{
+  background-color: red;
+}
+
+.vision-box-2{
+  background-color: #C6E4D6;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.lbtn2{
+  background-color: #09A15C;
+}
+.lbtn2:hover{
+  background-color: red;
+}
+
+.vision-box-3{
+  background-color: #F7EBCF;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.lbtn3{
+  background-color: #FFC239;
+}
+.lbtn3:hover{
+  background-color: red;
+}
+.learn-btn-a{
+  color: white;
+  text-decoration: none;
+}
+.e-quote{
+  background-color: white;
+  border: 1px lightgray solid;
+  border-radius: 16px;
+  margin: 32px 0px 80px 0px;
+}
+.quote-sec{
+  background-image: url(./assets/quote-bg.png);
+  background-size: 64px 64px;
+  position: relative; 
+  margin: 20px;
+  padding: 15px 20px;
+  background-repeat: no-repeat;
+ 
+}
+.quote-p{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-left: -18px;
+}
+
+.quote-author{
+  font-size: 20px;
+  font-weight: 600px;
+  margin: 0px;
+  opacity: 80%;
+  margin: 16px 0px 4px -18px;
+}
+
+.author-p{
+  font-size: 16px;
+  opacity: 60%;
+  margin: 4px 0px 0px -18px;
+}
+
+.recent-news-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.recent-news-des{
+  font-size: 16px;
+  opacity: 70%;
+  margin-bottom: 32px;
+}
+
+.news-box-1 , .news-box-2, .news-box-3{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  padding: 48px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
+.news-box-img{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.new-text-container{
+  margin: 0px;
+}
+.new-box-title{
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0px;
+  opacity: 80%;
+}
+.pub-logo{
+  height: 40px;
+  width: 134px;
+  margin: 12px 0px;
+}
+.time-sec .new-des{
+  font-size: 16px;
+  opacity: 70%;
+  margin: 0px 0px 0px 0px;
+}
+.read-more-btn{
+  background-color: #006A50;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 13px 26px;
+  margin-top: 10px;
+}
+.read-more-btn:hover{
+  background-color: red;
+}
+.read-more-btn-a, .Subscribe-btn-a{
+  color: white;
+  text-decoration: none;
+}
+.read-more-btn:hover{
+  background-color: red;
+}
+
+#donate-sec-title{
+  margin: 80px 0px 24px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#donate-sec-des{
+  font-size: 16px;
+  opacity: 70%;
+  text-align: center;
+  margin: 0px 88px;
+}
+
+.amount-container{
+  margin: 32px 104.5px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card-amount{
+  background-color: white;
+  border-radius: 16px ;
+  padding: 40px;
+  border: 1PX rgba(14, 14, 14, 0.15) solid;
+}
+.amount{
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.card-sel{
+  background-color: #C6E4D6;
+}
+.other-amount-container{
+  display: flex;
+  justify-content: center;
+}
+#other-amount{
+  width: 800px;
+  padding: 20px 40px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+.done-btn{
+  display: flex;
+  justify-content: center;
+  margin: 32px 0px 80px 0px;
+}
+#done-now:hover{
+  background-color: red;
+}
+#done-now{
+  font-size: 18px;
+  font-family: 600;
+  padding: 17px 34px;
+  background-color: #006A50;
+  border: none;
+  border-radius: 8px;
+  margin: 0px;
+}
+.done-now-a{
+  color:white;
+  text-decoration: none;
+}
+
+
+.sub-newsletter-container{
+  background-color: #C6E4D6 ;
+  border: none;
+  border-radius: 24px;
+  padding: 80px 100px;
+  margin-bottom: 80px;
+}
+.sub-title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 0px 16px 0px;
+}
+.sub-des{
+  font-size: 16px;
+  opacity: 70%;
+  text-align: center;
+  line-height: 24px;
+}
+.email-container{
+  display: flex;
+  justify-content: center;
+}
+.enter-email{
+  padding: 18px 40px;
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.Subscribe-btn{
+  background-color: #006A50;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 18px;
+  font-weight: 600px;
+}
+.Subscribe-btn:hover{
+  background-color: red;
+}
+.promise-text{
+  text-align: center;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 24px 0px 0px 0px;
+}
