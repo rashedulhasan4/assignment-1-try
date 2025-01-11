@@ -149,7 +149,7 @@ header button a{
   margin: 32px 0px 80px 0px;
 }
 .quote-sec{
-  background-image: url(./assets/quote-bg.png);
+  background-image: url(./images/quote-bg.png);
   background-size: 64px 64px;
   position: relative; 
   margin: 20px;
