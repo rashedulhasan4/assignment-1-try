@@ -9,7 +9,6 @@
 .bg-margin{
   margin: 0px 160px;
 }
-/* banner section*/
 
 .banner{
     background-color: #C6E4D6;
@@ -59,10 +58,7 @@ header button a{
   background-color: red;
 }
 
-/* The vision of Future Section */
-.vision-of{
-  /* margin: 0px 160px 32px 160px; */
-}
+
 .vision-of h3{
   font-size: 40px;
   font-weight: bold;
